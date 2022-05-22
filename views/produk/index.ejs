@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Produk | All</title>
+  </head>
+  <body>
+    <a href="/produk/create">Buat produk baru</a>
+    <br />
+    <br />
+
+    <% produk.forEach(i => { %>
+    <div>
+      <h1><%= i.nama_produk %></h1>
+      <p><%= i.deskripsi %></p>
+      <p><%= i.varian %></p>
+      <p><%= i.harga %></p>
+      <a href="/produk/<%= i.id %>">Baca lebih lanjut!</a>
+    </div>
+    <% }) %>
+  </body>
+</html>

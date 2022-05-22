@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "w12345",
+    "database": "lat4_development",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "w12345",
+    "database": "lat4_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "w12345",
+    "database": "lat4_production",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}
