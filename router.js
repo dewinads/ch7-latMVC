@@ -7,4 +7,5 @@ router.get("/produk/create", produk.create);
 router.post("/produk", produk.store);
 router.get("/produk/:id", produk.show);
 
+
 module.exports = router;
